@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>school website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <script src="java.js"></script>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo-icon.png" alt=""></a>
+            
+            <div class="nav-links" id="navLinks">
+                <img src="cancel.png" onclick="hideMenu()">
+                
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Activities.html">ACTIVITIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img class="home" src="profile-home.png" onclick="showMenu()">
+        </nav>
+        <h1>About us</h1>
+
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>word from the director</h1>
+                <p>The system architecture will comprise of 4 main components namely the 
+                    (1) participant computer, (2) the server, (3) the file and 
+                    (4) the web interface with is divided into 2 parts the customer interface 
+                    and the administrator interface
+                    The system architecture will comprise of 4 main components namely the 
+                    (1) participant computer, (2) the server, (3) the file and 
+                    (4) the web interface with is divided into 2 parts the customer interface 
+                    and the administrator interface</p>
+                    <a href="" class="visit-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                 <img src="member-4.png">
+            </div>
+        </div>
+        <div class="stf"> 
+        <h1>word from other staff</h1>
+        <div class="staff-word">
+           
+            <div class="staff">
+                <img src="member-4.png">
+                <p>Our class rooms are well equiped with all the necessary 
+                    reading material needed for our pupils
+                    and the administrator interface<strong style="color: blue;">Devote Boniface - teacher</strong>  
+                    
+                </p>
+            </div>
+            
+            <div class="staff">
+                <img src="member-4.png" alt="">
+                <p>Our class rooms are well equiped with all the necessary 
+                    reading material needed for our pupils
+                    and the administrator interface<strong style="color: blue;">Devote Boniface - teacher</strong>  
+                    
+                </p>
+                    
+                      
+            </div>
+        </div>
+        
+    </div>
+    </section>
+    <section class="image">
+        
+    </section>
+
+ 
+ <!-------------footer----------->
+ <section class="footer">
+    <h4>About us</h4>
+    <p>
+        for more information please follow us on the follwing platforms 
+         </p>
+        <div class="icons">
+            <a href=""><img src="facebook.png"></a>
+            <a href=""><img src="instagram.png"></a>
+            <a href=""><img src="twitter.png"></a>
+            <a href=""><img src="linkedin.png"></a>
+        </div>
+        <p>MADE BY DB & KR GROUP</p>
+        <span>+256779899463</span>
+        <span>+256740298240</span>
+ </section>
+
+
+    <!----toggle for the media query-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        
+
+    </script>
+</body>
+</html>

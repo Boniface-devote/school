@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>school website</title>
+    <link rel="stylesheet" href="slide.css">
+    <script src="slide.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="logo-icon.png" alt=""></a>
+        
+        <div class="nav-links" id="navLinks">
+            <img src="cancel.png" onclick="hideMenu()">
+            
+            <ul>
+                 <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Activities.html">ACTIVITIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <img class="home" src="profile-home.png" onclick="showMenu()">
+    </nav>
+    <h1>Our Activities</h1>
+
+</section>
+   <!--------------Activity section-------------->
+<section class="activity">
+    <h1>classes and more </h1>
+    <p>These are some of the activities that our children take part in</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Class Rooms</h3>
+<div class="slideshow-container">
+    <div class="mySlides1">
+        <img src="class (1).jpg" style="width:50%">
+      </div>
+      <div class="mySlides1">
+        <img src="class (2).jpg" style="width:100%">
+      </div>
+        
+  <div class="mySlides1">
+    <img src="class (3).jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="chat4.jpg" width="50%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="chat5.jpg" width="50%">
+  </div>
+  <div class="mySlides1">
+    <img src="chat6.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="chat7.jpg" style="width:50%">
+  </div>
+  <div class="mySlides1">
+    <img src="chat8.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="chat9.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="chat10.jpg" style="width:50%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+        </div>
+       
+        <div class="course-col">
+            <h3>The school van</h3>
+            <div class="slideshow-container">
+                <div class="mySlides2">
+                  <img src="van1.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides2">
+                  <img src="van2.jpg" style="width:100%">
+                </div>
+              
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+              </div>
+            
+        </div>
+    </div>
+
+</section>
+
+ <!-------------footer----------->
+ <section class="footer">
+    <h4>About us</h4>
+    <p>
+        for more information please follow us on the follwing platforms 
+         </p>
+        <div class="icons">
+            <a href=""><img src="facebook.png"></a>
+            <a href=""><img src="instagram.png"></a>
+            <a href=""><img src="twitter.png"></a>
+            <a href=""><img src="linkedin.png"></a>
+        </div>
+        <p>MADE BY DB & KR GROUP</p>
+        <span>+256779899463</span>
+        <span>+256740298240</span>
+ </section>
+
+
+    <!----toggle for the media query-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        
+
+    </script>
+</body>
+</html>
